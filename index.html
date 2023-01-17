@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
         rel="stylesheet">
-    <!-- Hojas de estilos -->    
+    <!-- Hojas de estilos -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/normalize.css">
 
+    <link rel="shortcut icon" href="/img/icono.png" type="image/x-icon">
+
     <title>BlogDeCafé</title>
 </head>
+
 <body>
     <header class="header">
 
@@ -26,7 +30,7 @@
                             Blog<span class="logo__bold">DeCafé</span>
                         </h3>
                     </a>
-            
+
                     <nav class="navegacion">
                         <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
                         <a class="navegacion__enlace" href="cursos.html">Cursos</a>
@@ -35,15 +39,126 @@
                 </div><!-- .barra -->
             </div> <!-- contenedor -->
         </div><!-- .header__bg -->
-        
+
         <div class="header__texto">
             <h2 class="no-margin">Blog de café, cursos y consejos</h2>
             <p>Aprende los secretos y recetas de los expertos en café-</p>
         </div><!-- .header__texto -->
-
-
     </header><!-- fin header -->
 
+
+    <div class="contenido-principal contenedor">
+        <!-- main -->
+        <main class="blog">
+            <h3 class="blog__titulo no-margin">Nuestro Blog</h3>
+            <!-- articulo 1 -->
+            <article class="articulo">
+                <div class="articulo__contenido">
+                    <img class="articulo__imagen" src="/img/blog1.jpg" alt="imagen blog1">
+
+                    <h4 class="articulo__titulo no-margin">Tipos de Granos de Café</h4>
+                    <p class="articulo__texto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium rerum est
+                        repellendus, hic qui sint explicabo
+                        mollitia ut, iure harum distinctio ipsum at eos deserunt corrupti obcaecati optio fuga.
+                    </p>
+                </div>
+                <div class="articulo__boton">
+                    <a href="entrada.html" class="boton boton--principal">
+                        Leer Artículo
+                    </a>
+                </div><!-- fin articulo_boton -->
+            </article><!-- fin articulo -->
+
+            <!-- articulo 2 -->
+            <article class="articulo">
+                <div class="articulo__contenido">
+                    <img class="articulo__imagen" src="/img/blog2.jpg" alt="imagen blog2">
+            
+                    <h4 class="articulo__titulo no-margin">Tres deliciosas recetas de café</h4>
+                    <p class="articulo__texto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium rerum est
+                        repellendus, hic qui sint explicabo
+                        mollitia ut, iure harum distinctio ipsum at eos deserunt corrupti obcaecati optio fuga.
+                    </p>
+                </div>
+                <div class="articulo__boton">
+                    <a href="entrada.html" class="boton boton--principal">
+                        Leer Artículo
+                    </a>
+                </div><!-- fin articulo_boton -->
+            </article><!-- fin articulo -->
+
+            <!-- articulo 3 -->
+            <article class="articulo">
+                <div class="articulo__contenido">
+                    <img class="articulo__imagen" src="/img/blog3.jpg" alt="imagen blog3">
+            
+                    <h4 class="articulo__titulo no-margin">Beneficios del café</h4>
+                    <p class="articulo__texto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium rerum est
+                        repellendus, hic qui sint explicabo
+                        mollitia ut, iure harum distinctio ipsum at eos deserunt corrupti obcaecati optio fuga.
+                    </p>
+                </div>
+                <div class="articulo__boton">
+                    <a href="entrada.html" class="boton boton--principal">
+                        Leer Artículo
+                    </a>
+                </div><!-- fin articulo_boton -->
+            </article><!-- fin articulo -->
+
+        </main><!-- fin main -->
+
+        <!-- sidebar -->
+        <aside class="sidebar">
+            
+            <ul class="cursos no-padding no-margin">
+                <h3 class="cursos__titulo no-margin">Nuestros Cursos</h3>
+                <!-- curso 1 -->
+                <li class="widget-curso">
+                    <h4 class="widget-curso__titulo no-margin">Técnicas de extracción de café</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__precio">$500</span>
+                    </p>
+
+                    <p class="widget-curso__label">Cupos:
+                        <span class="widget-curso__precio">30</span>
+                    </p>
+                    <div class="widget-curso__boton">
+
+                        <a href="entrada.html" class="boton--secundario boton">Saber más de nuestros cursos</a>
+
+                    </div>
+
+                </li><!-- fin widget-curso -->
+
+                <!-- curso 2 -->
+                <li class="widget-curso">
+                    <h4 class="widget-curso__titulo no-margin">4 Recetas de café para principiantes</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__precio">Gratuito</span>
+                    </p>
+                
+                    <p class="widget-curso__label">Cupos:
+                        <span class="widget-curso__precio">17</span>
+                    </p>
+                    <div class="widget-curso__boton">
+                
+                        <a href="entrada.html" class="boton--secundario boton">Saber más de nuestros cursos</a>
+                
+                    </div>
+                
+                </li><!-- fin widget-curso -->
+
+            </ul>
+        </aside><!-- fin aside -->
+
+    </div><!-- fin contenido-principal -->
+
+
+
+    <!-- footer -->
     <footer class="footer">
         <div class="contenedor">
             <div class="barra">
@@ -52,7 +167,7 @@
                         Blog<span class="logo__bold">DeCafé</span>
                     </h3>
                 </a>
-        
+
                 <nav class="navegacion">
                     <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
                     <a class="navegacion__enlace" href="cursos.html">Cursos</a>
@@ -63,4 +178,5 @@
     </footer><!-- .footer -->
 
 </body>
+
 </html>
