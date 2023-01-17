@@ -150,12 +150,5 @@ img {
 
 .footer{
     background-color: var(--negro);
-    padding: 4rem 0 1rem;
-}
-
-.footer__texto{
-    font-family: var(--fuenteParrafos);
-    color: var(--blanco);
-    text-align: center;
-    margin-top: 5rem;
+    padding: 4rem 0;
 }
