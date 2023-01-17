@@ -274,3 +274,26 @@ img {
     }
 
 }/* fin mq */
+
+/* nosotros */
+
+.sobre-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    background-color: antiquewhite;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+.sobre-nosotros__imagen{
+    line-height: 0;
+}
+
+@media (max-width: 768px) {
+
+    .sobre-nosotros{
+        display: block;
+    }
+}
+
