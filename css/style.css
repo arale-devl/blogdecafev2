@@ -185,6 +185,13 @@ img {
     text-align: right;
 }
 
+.boton--formulario {
+    background-color: var(--primario);
+}
+
+.boton--formulario:hover{
+    cursor: pointer;
+}
 
 /* main */
 
@@ -223,7 +230,7 @@ img {
 }
 
 .cursos {
-    background-color: beige;
+    background-color: antiquewhite;
     padding: 1rem;
 }
 
@@ -256,6 +263,9 @@ img {
 
     .cursos__titulo{
         text-align: center;
+        padding-bottom: 2rem;
+        margin-bottom: 1;
+        border-bottom: 1px solid var(--primario);
     }
     .blog__titulo{
         text-align: center;
@@ -266,7 +276,8 @@ img {
     }
 
     .cursos{
-        background-color: beige;
+        background-color: antiquewhite;
+        margin-bottom: 2rem;
     }
     .widget-curso{
         padding: 0 8rem;
@@ -294,6 +305,66 @@ img {
 
     .sobre-nosotros{
         display: block;
+    }
+}
+
+/* contacto */
+.contacto-bg{
+    background-image: url(/img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    background-color: antiquewhite;
+    padding: 3rem;
+    margin: -5rem auto 2rem auto;
+    width: 90%;
+    border-radius: .5rem;
+}
+
+.campo{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.campo__label{
+    flex: 0 0 9rem;
+    text-align: right;
+    font-weight: 700
+}
+
+.campo__field{
+    border: 1px solid var(--gris);
+    width: 100%;
+}
+
+.campo__field--textarea{
+    width: 100%;
+    border: 1px solid var(--gris);
+    min-height: 20rem;
+}
+
+.campo__boton{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .campo{
+        display: block;
+    }
+    
+    .boton--formulario{
+        width: 90%;
+        padding: 1.5rem 0;
+    }
+    .campo__boton{
+        display: block;
+        text-align: center;
     }
 }
 
