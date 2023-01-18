@@ -187,6 +187,7 @@ img {
 
 .boton--formulario {
     background-color: var(--primario);
+    margin: 0;
 }
 
 .boton--formulario:hover{
@@ -368,3 +369,34 @@ img {
     }
 }
 
+/* curso */
+
+.curso{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+    border-bottom: 1px solid var(--gris);
+    margin: 2rem;
+    
+}
+
+.curso__boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.curso__boton--inscribirse{
+    padding: 3rem;
+    margin: 0;
+}
+
+.curso:last-of-type{
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .curso{
+        display: block;
+    }
+}
