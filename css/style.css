@@ -170,18 +170,18 @@ img {
     border: none;
 }
 
-.boton--principal{
+.boton--principal {
     display: inline-block;
 }
 
-.boton--secundario{
+.boton--secundario {
     display: block;
     text-align: center;
     background-color: var(--primario);
 }
 
 /* para poder posicionar el boton correctamente */
-.articulo__boton{
+.articulo__boton {
     text-align: right;
 }
 
@@ -190,7 +190,7 @@ img {
     margin: 0;
 }
 
-.boton--formulario:hover{
+.boton--formulario:hover {
     cursor: pointer;
 }
 
@@ -204,7 +204,7 @@ img {
 
 .blog {
     margin-bottom: 4rem;
-    
+
 }
 
 .blog__titulo {
@@ -218,7 +218,7 @@ img {
     border-bottom: 1px solid var(--gris);
 }
 
-.articulo:last-of-type{
+.articulo:last-of-type {
     border: none;
 }
 
@@ -235,61 +235,68 @@ img {
     padding: 1rem;
 }
 
-.cursos__titulo{
+.cursos__titulo {
     margin-bottom: 2rem;
 }
 
 .widget-curso {
     list-style: none;
     line-height: 1;
-    
+
 }
+
 @media (max-width: 768px) {
-    .contenido-principal{
+    .contenido-principal {
         display: block;
     }
 
-    .articulo__boton{
+    .articulo__boton {
         text-align: center;
     }
 
-    .boton--principal{
+    .boton--principal {
         display: block;
         max-width: 80%;
         margin: 2rem auto;
     }
-    .boton--secundario{
+
+    .boton--secundario {
         padding: 2rem;
     }
 
-    .cursos__titulo{
+    .cursos__titulo {
         text-align: center;
         padding-bottom: 2rem;
-        margin-bottom: 1;
+        margin-bottom: 1px;
         border-bottom: 1px solid var(--primario);
     }
-    .blog__titulo{
+
+    .blog__titulo {
         text-align: center;
     }
-    .articulo:last-of-type{
+
+    .articulo:last-of-type {
         margin-bottom: 2rem;
         border-bottom: 1px solid var(--gris);
     }
 
-    .cursos{
+    .cursos {
         background-color: antiquewhite;
         margin-bottom: 2rem;
     }
-    .widget-curso{
+
+    .widget-curso {
         padding: 0 8rem;
         text-align: center;
     }
 
-}/* fin mq */
+}
+
+/* fin mq */
 
 /* nosotros */
 
-.sobre-nosotros{
+.sobre-nosotros {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
@@ -298,26 +305,27 @@ img {
     margin-bottom: 2rem;
     align-items: center;
 }
-.sobre-nosotros__imagen{
+
+.sobre-nosotros__imagen {
     line-height: 0;
 }
 
 @media (max-width: 768px) {
 
-    .sobre-nosotros{
+    .sobre-nosotros {
         display: block;
     }
 }
 
 /* contacto */
-.contacto-bg{
-    background-image: url(/img/contacto.jpg);
+.contacto-bg {
+    background-image: url(img/contacto.jpg);
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.formulario{
+.formulario {
     background-color: antiquewhite;
     padding: 3rem;
     margin: -5rem auto 2rem auto;
@@ -325,45 +333,46 @@ img {
     border-radius: .5rem;
 }
 
-.campo{
+.campo {
     display: flex;
     gap: 2rem;
     margin-bottom: 1rem;
 }
 
-.campo__label{
+.campo__label {
     flex: 0 0 9rem;
     text-align: right;
     font-weight: 700
 }
 
-.campo__field{
+.campo__field {
     border: 1px solid var(--gris);
     width: 100%;
 }
 
-.campo__field--textarea{
+.campo__field--textarea {
     width: 100%;
     border: 1px solid var(--gris);
     min-height: 20rem;
 }
 
-.campo__boton{
+.campo__boton {
     margin-top: 2rem;
     display: flex;
     justify-content: flex-end;
 }
 
 @media (max-width: 768px) {
-    .campo{
+    .campo {
         display: block;
     }
-    
-    .boton--formulario{
+
+    .boton--formulario {
         width: 90%;
         padding: 1.5rem 0;
     }
-    .campo__boton{
+
+    .campo__boton {
         display: block;
         text-align: center;
     }
@@ -371,32 +380,32 @@ img {
 
 /* curso */
 
-.curso{
+.curso {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 2rem;
     border-bottom: 1px solid var(--gris);
     margin: 2rem;
-    
+
 }
 
-.curso__boton{
+.curso__boton {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
 }
 
-.curso__boton--inscribirse{
+.curso__boton--inscribirse {
     padding: 3rem;
     margin: 0;
 }
 
-.curso:last-of-type{
+.curso:last-of-type {
     border: none;
 }
 
 @media (max-width: 768px) {
-    .curso{
+    .curso {
         display: block;
     }
 }
